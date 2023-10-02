@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1695738288 "/Users/dany/Projects/Resume/src/newAnon/resume_anon.tex" "resume_anon.pdf" "resume_anon" 1695738288
-  "/Users/dany/Projects/Resume/src/newAnon/resume_anon.tex" 1695738287 8696 3cdd8efe4a63e2a5a8673d01c26db3d3 ""
+["pdflatex"] 1696266145 "/Users/dany/Projects/Resume/src/newAnon/resume_anon.tex" "resume_anon.pdf" "resume_anon" 1696266145
+  "/Users/dany/Projects/Resume/src/newAnon/resume_anon.tex" 1696266144 8696 3cdd8efe4a63e2a5a8673d01c26db3d3 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -87,9 +87,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674601221 2826446 341e65cfce1e3ab4a33c39269e8e4d87 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "resume_anon.aux" 1695738288 1312 de84a2b7984d0c82347800fa893a7757 "pdflatex"
-  "resume_anon.out" 1695738288 526 fcb9c8c0dcee17246cb25df95327f479 "pdflatex"
-  "resume_anon.tex" 1695738287 8696 3cdd8efe4a63e2a5a8673d01c26db3d3 ""
+  "resume_anon.aux" 1696266145 1312 de84a2b7984d0c82347800fa893a7757 "pdflatex"
+  "resume_anon.out" 1696266145 526 fcb9c8c0dcee17246cb25df95327f479 "pdflatex"
+  "resume_anon.tex" 1696266144 8696 3cdd8efe4a63e2a5a8673d01c26db3d3 ""
   (generated)
   "resume_anon.aux"
   "resume_anon.log"
