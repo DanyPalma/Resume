@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.24)  18 JUN 2024 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.24)  18 JUN 2024 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -295,16 +295,16 @@ Overfull \hbox (0.24858pt too wide) in alignment at lines 130--130
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 164.
+(Font)              <5> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 165.
+(Font)              <7> on input line 174.
 
-Overfull \hbox (5.35233pt too wide) in alignment at lines 186--186
+Overfull \hbox (5.35233pt too wide) in alignment at lines 195--195
 [] [] 
  []
 
 
-Overfull \hbox (8.42328pt too wide) in alignment at lines 205--205
+Overfull \hbox (8.42328pt too wide) in alignment at lines 214--214
 [] [] 
  []
 
@@ -320,21 +320,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume_DanielPalma.out' has not changed.
-(rerunfilecheck)             Checksum: 0A3951963388A91C0A7289C555D50382;526.
+(rerunfilecheck)             Checksum: F0F364FF2A6D68A2B8D4F9BABC92E10D;418.
  ) 
 Here is how much of TeX's memory you used:
- 10217 strings out of 478268
- 161979 string characters out of 5846347
+ 10215 strings out of 478268
+ 161959 string characters out of 5846347
  503325 words of memory out of 5000000
- 28304 multiletter control sequences out of 15000+600000
+ 28303 multiletter control sequences out of 15000+600000
  475562 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,338b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on resume_DanielPalma.pdf (1 page, 131255 bytes).
+Output written on resume_DanielPalma.pdf (1 page, 130279 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

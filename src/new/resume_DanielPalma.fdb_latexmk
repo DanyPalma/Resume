@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1718732874 "/Users/dany/Projects/Resume/src/new/resume_DanielPalma.tex" "resume_DanielPalma.pdf" "resume_DanielPalma" 1718732874
-  "/Users/dany/Projects/Resume/src/new/resume_DanielPalma.tex" 1718732873 8891 ff385577548f2414d2e5f0c818fcb688 ""
+["pdflatex"] 1718733176 "/Users/dany/Projects/Resume/src/new/resume_DanielPalma.tex" "resume_DanielPalma.pdf" "resume_DanielPalma" 1718733177
+  "/Users/dany/Projects/Resume/src/new/resume_DanielPalma.tex" 1718733176 9150 8d4d4da0d42c86da9531637bc2de0f4f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -87,9 +87,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674601221 2826446 341e65cfce1e3ab4a33c39269e8e4d87 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "resume_DanielPalma.aux" 1718732874 1312 22dfb5913343de36c02e816ce93372ab "pdflatex"
-  "resume_DanielPalma.out" 1718732874 526 0a3951963388a91c0a7289c555d50382 "pdflatex"
-  "resume_DanielPalma.tex" 1718732873 8891 ff385577548f2414d2e5f0c818fcb688 ""
+  "resume_DanielPalma.aux" 1718733177 1202 b2a26156e311400ae43b22a4062dfb66 "pdflatex"
+  "resume_DanielPalma.out" 1718733177 418 f0f364ff2a6d68a2b8d4f9babc92e10d "pdflatex"
+  "resume_DanielPalma.tex" 1718733176 9150 8d4d4da0d42c86da9531637bc2de0f4f ""
   (generated)
   "resume_DanielPalma.aux"
   "resume_DanielPalma.log"
