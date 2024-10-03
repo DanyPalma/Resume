@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.24)  20 AUG 2024 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.24)  3 OCT 2024 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -297,14 +297,14 @@ Overfull \hbox (0.24858pt too wide) in alignment at lines 130--130
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 174.
+(Font)              <7> on input line 166.
 
-Overfull \hbox (5.35233pt too wide) in alignment at lines 195--195
+Overfull \hbox (5.35233pt too wide) in alignment at lines 207--207
 [] [] 
  []
 
 
-Overfull \hbox (8.42328pt too wide) in alignment at lines 214--214
+Overfull \hbox (8.42328pt too wide) in alignment at lines 226--226
 [] [] 
  []
 
@@ -325,13 +325,13 @@ Package rerunfilecheck Info: File `resume_DanielPalma.out' has not changed.
 Here is how much of TeX's memory you used:
  10215 strings out of 478268
  161959 string characters out of 5846347
- 503325 words of memory out of 5000000
+ 502325 words of memory out of 5000000
  28303 multiletter control sequences out of 15000+600000
  475562 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,338b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on resume_DanielPalma.pdf (1 page, 130279 bytes).
+Output written on resume_DanielPalma.pdf (1 page, 132114 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
