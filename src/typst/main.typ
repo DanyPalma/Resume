@@ -15,18 +15,18 @@
   linkedin: linkedin,
 )
 
-#v(-7pt)
+#v(-5pt) // Consistent spacing
 
 #section-heading("Education")
 // Education
 #block(
-  width: 99%,
+  width: 99%, // Match LaTeX width
   list(
   marker: none, 
-  indent: .3em,
+  indent: 0.1in, // Match LaTeX indentation
   [#education-entry(
   title: "University of Central Florida",
-  organization: "B.S in Computer Science, Minor in Mathematics 3.9/4.0 GPA",
+  organization: "B.S. in Computer Science, Minor in Mathematics 3.9/4.0 GPA",
   relevant: "Data Structures and Algorithms, Object Oriented Programming, Discrete Mathematical Structures, Computer Logic",
   location: "Orlando, Florida",
   date: "May 2026"
@@ -34,17 +34,14 @@
 )
 )
 
-#v(7pt)
+#v(-10pt) // Consistent spacing
 
 // Technical Skills
-
-#v(-12pt)
-
 #section-heading("Technical Skills")
 
 #list(
   marker: none,
-  indent: .3em, 
+  indent: 0.1in, // Match LaTeX indentation
   [#skills-entry(
   group:"Languages",
   items: "Python, Java, TypeScript, JavaScript, Rust, C, C++, C#, SQL, Haskell, OCaml,  HTML, CSS"
@@ -55,19 +52,20 @@
   )],
   [#skills-entry(
     group:"Tools",
-    items: "Git, Github, Docker, Vercel, Linux, Heroku, LaTeX, Supabase, tRPC, Figma, Turso, DrizzleORM, Lucia"
+    items: "Git, Github, Docker, Vercel, Linux, Heroku, LaTeX, Supabase, tRPC, Figma, Turso, Drizzle ORM, Lucia"
   )]
 )
 
-#v(-10pt)
+#v(-10pt) // Consistent spacing
+
 // Experience
 #section-heading("Work Experience")
 #block(
-  width: 99%,
+  width: 99%, // Match LaTeX width
   list(
   tight: false,
   marker: none,
-  indent: .3em,
+  indent: 0.1in, // Match LaTeX indentation
   [#experience-entry(
   title: "Software Engineering Intern — Design, Processes & Tools",
   organization: "The Boeing Company",
@@ -76,7 +74,7 @@
   details: (
     "Pioneered development of SuperBSQL, a complete workflow automation to completely eliminate manual data processing between databases using Python enabling secure & efficient data transfers",
     "Designed an instantaneous pipeline that transforms customer datasets using Pandas into acceptable PL/SQL formats and increases engineer's focus times by 250+ hours a year",
-    "Established robust error handling, reporting \& logging with automated email alerting using SMTPLib"
+    "Established robust error handling, reporting & logging with automated email alerting using SMTPLib"
   )
   )],
   [#experience-entry(
@@ -98,19 +96,23 @@
   details: (
     "Teaching assistant for the introductory data structures course",
     "Coordinated lab lectures for over 5 sections and assignments for over 100 students and 5 lab sections",
-    "Designed automated tools using Rust and Python to streamline parsing \& grading of 1600+ C scripts",
+    "Designed automated tools using Rust and Python to streamline parsing & grading of 1600+ C scripts",
   )
 )]
 )
 )
 
+#v(-5pt) // Consistent spacing
+
 // Projects
 #section-heading("Projects")
+
+#v(2pt)
 
 #list(
   marker: none,
   tight: false,
-  indent: .3em,
+  indent: 0.1in, // Match LaTeX indentation
   [#project-entry(
   title: "FEPrep",
   technologies: "Turborepo, Next.js, TypeScript, libSQL, tRPC, Drizzle ORM, Expo, Lucia, React Native, TailwindCSS, Vercel",
@@ -118,7 +120,7 @@
     "Developed the back-end of an educational platform with 200+ daily users to study for the FE Exam at UCF.",
     "Implemented a end-to-end typesafe libSQL API using tRPC, Drizzle ORM and Zod.",
     "Adapted endpoints to optimize query speed by 26% and reduce total API calls by 33%",
-    "Increased server-side component efficiency 14\% by caching results to be reused on subsequent requests."
+    "Increased server-side component efficiency 14% by caching results to be reused on subsequent requests."
   )
 )],
   [#project-entry(
@@ -126,14 +128,14 @@
   technologies: "React, Next.js, Typescript, TailwindCSS, Express.js, Puppeteer, GPT3.5",
   details: (
     "Awarded 1st Place in Microsoft & RBC's Challenge at KnightHacks 2023.",
-    "Optimized data pipeline speed from the webscraper to client-side injection by 18\%",
+    "Optimized data pipeline speed from the webscraper to client-side injection by 18%",
     "Designed Landing Page and Injected User Interfaces using TailwindCSS.",
     "Pioneered functionality allowing our team to write React Components using TailwindCSS and TypeScript that could be injected into any website regardless of support."
   )
 )],
   [#project-entry(
   title: "Handy Dollar",
-  technologies: "React, Next.js, TailwindCSS, Azure AI Vision, PostgreSQL, Supabase, Plaid API, GPT3.5",
+  technologies: "React, Next.js, TypeScript, TailwindCSS, Azure AI Vision, PostgreSQL, Supabase, Plaid API, GPT3.5",
   details: (
     "Awarded 2nd Place in Google's Empowering Learners with Technology challenge at ShellHacks 2023.",
     "Led development in implementing the database, user authentication, and API.",

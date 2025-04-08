@@ -18,7 +18,6 @@
 
   set document(author: author, title: author, description: "Typst Resume")
   
-
   set text(
     // LaTeX style font
     font: font,
@@ -40,13 +39,11 @@
     #line(length: 100%, stroke: 1pt)
   ]
 
-  
-
   show heading.where(level: 1): it => [
     #set align(author-position)
     #set text(
       weight: 700,
-      size: 24pt,
+      size: 25pt, // Increased to match \Huge in LaTeX
     )
     #pad(it.body)
     #v(-7pt)
@@ -82,7 +79,7 @@
           contact-item(github, link-type: "https://"),
           contact-item(personal-site, link-type: "https://"),
         )
-        items.filter(x => x != none).join("  |  ")
+        items.filter(x => x != none).join(" | ")
       }
     ],
   )
@@ -91,8 +88,8 @@
   set par(justify: true)
   set par(leading: 0.5em)
   set text(spacing: 70%)
+  set list(body-indent: .25em)
   
-
   doc
 }
 
@@ -101,11 +98,10 @@
   v(-7pt)
 }
 
-
 #let section-heading(title) = {
   v(10pt)
-  text(size: 1.1em, smallcaps(title))
-  v(-10pt)
+  text(size: 1.1em, weight: "regular", smallcaps(title)) // Match the LaTeX \large and \scshape
+  v(-11pt)
   section-rule()
 }
 
@@ -127,21 +123,21 @@
   stack(
     dir: ltr,
     spacing: 1fr,
-    text(size: .9em, style: "italic", organization),
-    text(size: .9em, style: "italic", location)
+    text(size: .925em, style: "italic", organization),
+    text(size: .95em, style: "italic", location)
   )
   v(-8pt)
   if relevant != "" [
-    #text(style: "italic", size: .7em, weight:"bold", "Relevant Coursework:") #text(size: .8em, style:"italic", relevant)
+    #text(style: "italic", size: .75em, weight:"bold", "Relevant Coursework:") #text(size: .8em, style:"italic", relevant)
   ]
   if details != () {
     list(
       marker: "•",
       indent: 1em,
-      ..details.map(detail => text(size: 0.9em, detail))
+      ..details.map(detail => text(size: 0.925em, detail))
     )
   }
-  v(-7pt)
+  v(-5pt) // Adjusted to match LaTeX spacing
 }
 
 #let experience-entry(
@@ -162,8 +158,8 @@
   stack(
     dir: ltr,
     spacing: 1fr,
-    text(size: .9em, style: "italic", organization),
-    text(size: .9em, style: "italic", location)
+    text(size: .925em, style: "italic", organization),
+    text(size: .925em, style: "italic", location)
   )
   v(-7pt)
   if relevant != "" [
@@ -171,15 +167,15 @@
   ]
   if details != () {
     block(
-      width: 95%,
+      width: 97%, // Adjusted to match LaTeX width
       list(
       marker: "•",
-      indent: 1em,
-      ..details.map(detail => text(size: 0.9em, detail))
+      indent: 0.15in, // Matched to LaTeX indentation
+      ..details.map(detail => text(size: 0.925em, detail))
       )
     )
   }
-  v(-7pt)
+  v(-5pt) // Adjusted to match LaTeX spacing
 }
 
 #let skills-entry(
@@ -189,8 +185,8 @@
   stack(
     dir: ltr,
     spacing: .3em,
-    text(size: .9em, weight: "bold", group + ":"),
-    text(size: .9em, items)
+    text(size: .925em, weight: "bold", group + ":"),
+    text(size: .925em, items)
   )
 }
 
@@ -202,18 +198,18 @@
   stack(
     dir: ltr,
     spacing: .3em,
-    text(size: 1em, weight: "bold", title),
-    text("|"),
-    text(size: .9em, style: "italic", technologies)
+    text(size: .925em, weight: "bold", title),
+    text("|"), 
+    text(size: .925em, style: "italic", technologies)
   )
   v(-7pt)
   block(
-    width: 98%,
+    width: 97%, // Adjusted to match LaTeX width
     list(
-    marker: "•", 
-    indent: 1.5em,
-    ..details.map(detail => text(size: 0.9em, detail))
+    marker: [#sym.bullet], 
+    indent: 0.15in, // Matched to LaTeX indentation
+    ..details.map(detail => text(size: 0.925em, detail))
   )
   )
-  v(-7pt)
+  v(-5pt) // Adjusted to match LaTeX spacing
 }
