@@ -128,7 +128,7 @@
   )
   v(-8pt)
   if relevant != "" [
-    #text(style: "italic", size: .75em, weight:"bold", "Relevant Coursework:") #text(size: .8em, style:"italic", relevant)
+    #text(style: "italic", size: .75em, weight:"bold", "Relevant Coursework:") #text(size: .8em, style:"italic", weight: "medium", relevant)
   ]
   if details != () {
     list(
