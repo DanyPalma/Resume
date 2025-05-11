@@ -26,7 +26,7 @@
   indent: 0.1in, // Match LaTeX indentation
   [#education-entry(
   title: "University of Central Florida",
-  organization: "B.S. in Computer Science, Minor in Mathematics 3.9/4.0 GPA",
+  organization: "B.S. in Computer Science, Minor in Mathematics 3.7/4.0 GPA",
   relevant: "Data Structures and Algorithms, Object Oriented Programming, Discrete Mathematical Structures, Computer Logic",
   location: "Orlando, Florida",
   date: "May 2026"
