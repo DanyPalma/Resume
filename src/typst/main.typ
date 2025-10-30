@@ -60,6 +60,26 @@
 
 // Experience
 #section-heading("Work Experience")
+
+#block(
+  width: 99%, 
+  list(
+    tight: false,
+    marker: none,
+    indent: 0.01in, 
+    [#experience-entry(
+      title: "Software Engineering Intern — Entitlements Management ",
+      organization: "Morgan Stanley",
+      location: "New York, New York",
+      date: "May 2025 - August 2025",
+      details: (
+        "Built and deployed a full-stack monitoring and archival app (Vite, React, FastAPI, IBM DB2) to centralize tracking for 300+ ETL jobs, improving team visibility and standardization.",
+        "Improved frontend load time by ~92% (11.5s → 0.9s) and API latency by ~86% (2.1s → 0.3s) through caching, query optimization, and rendering enhancements.",
+        "Owned end-to-end architecture and development, implementing logging standards and a reliable job status flow while collaborating with stakeholders to ensure usability and maintainability"
+    ))]
+  )
+)
+
 #block(
   width: 99%, // Match LaTeX width
   list(
@@ -83,20 +103,9 @@
   location: "Orlando, Florida",
   date: "August 2023 - Present",
   details: (
-    "Architected and implemented a comprehensive monorepository system, integrating three full-stack applications serving 3000+ users.",
+    "Architected a comprehensive monorepository system, serving multiple full-stack applications to 3000+ users.",
     "Spearheaded the development of shared UI components, databases, and APIs across multiple applications, reducing latency by 60% and enhancing system efficiency",
-    "Architected and deployed a cutting-edge, fully serverless infrastructure leveraging Cloudflare Workers and Turso, powering diverse applications including a club site, admin tool, and hackathon website reducing costs by 94%"
-  )
-)],
-  [#experience-entry(
-  title: "Lead Undergraduate Teaching Assistant",
-  organization: "University of Central Florida",
-  location: "Orlando, Florida", 
-  date: "August 2023 - May 2024",
-  details: (
-    "Teaching assistant for the introductory data structures course",
-    "Coordinated lab lectures for over 5 sections and assignments for over 100 students and 5 lab sections",
-    "Designed automated tools using Rust and Python to streamline parsing & grading of 1600+ C scripts",
+    "Architected and deployed a cutting-edge, fully serverless infrastructure leveraging Cloudflare Workers and Turso, powering diverse applications including a club site, admin tool, and hackathon website reducing infrastructure costs by 94%"
   )
 )]
 )
@@ -117,8 +126,7 @@
   title: "FEPrep",
   technologies: "Turborepo, Next.js, TypeScript, libSQL, tRPC, Drizzle ORM, Expo, Lucia, React Native, TailwindCSS, Vercel",
   details: (
-    "Developed the back-end of an educational platform with 200+ daily users to study for the FE Exam at UCF.",
-    "Implemented a end-to-end typesafe libSQL API using tRPC, Drizzle ORM and Zod.",
+    "Developed the back-end of an educational platform with 200+ DAU to study for the FE Exam at UCF.",
     "Adapted endpoints to optimize query speed by 26% and reduce total API calls by 33%",
     "Increased server-side component efficiency 14% by caching results to be reused on subsequent requests."
   )
@@ -129,7 +137,6 @@
   details: (
     "Awarded 1st Place in Microsoft & RBC's Challenge at KnightHacks 2023.",
     "Optimized data pipeline speed from the webscraper to client-side injection by 18%",
-    "Designed Landing Page and Injected User Interfaces using TailwindCSS.",
     "Pioneered functionality allowing our team to write React Components using TailwindCSS and TypeScript that could be injected into any website regardless of support."
   )
 )],
@@ -139,7 +146,6 @@
   details: (
     "Awarded 2nd Place in Google's Empowering Learners with Technology challenge at ShellHacks 2023.",
     "Led development in implementing the database, user authentication, and API.",
-    "Implemented user authentication using Supabase Auth and OAuth2 social providers",
     "Utilized Azure's AI Vision and OpenAI's ChatGPT API to seamlessly extract and correlate receipt data with bank transactions.",
     "Leveraged GPT3.5 and Supabase Buckets to cache responses and reduce API calls."
   )
